@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 gem 'rails', '4.2.3'
 gem 'sqlite3'
 gem 'bootstrap-sass', '~> 3.3.5'
@@ -14,6 +13,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'simple_form'
+gem 'paperclip', '~> 4.3'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -25,7 +25,6 @@ gem 'simple_form'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-
   gem 'rspec-rails', '~> 3.0'
   gem 'capybara'
   gem 'factory_girl_rails'
